@@ -14,6 +14,7 @@
   left: -40px;
   width: 30px;
   height: 1px;
+  margin-top:50px;
   background: var(--site-theme-color);
   color: var(--site-theme-color);
 }

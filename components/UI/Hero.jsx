@@ -17,13 +17,16 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Piyush Garg</h2>
+              <h2 className="mt-3 mb-3">
+                I&apos;m{" "}
+                <span className="hover:bg-green-700 text-18">Piyush Garg</span>
+              </h2>
               <h5 className="mb-4">Fullstack Developer & Instructor</h5>
               <p id="about-me">
-                Hi there! My name is Piyush Garg and I&rsquo;m a software
-                engineer with over 5 years of experience in the industry. I love
-                all things tech and coding, and on my channel, I share my
-                knowledge and experience with others.
+                Hi there! My name is <span className=""> Piyush Garg </span> and
+                I&rsquo;m a software engineer with over 5 years of experience in
+                the industry. I love all things tech and coding, and on my
+                channel, I share my knowledge and experience with others.
               </p>
             </div>
             <div className="mt-5 flex place-content-center md:block">

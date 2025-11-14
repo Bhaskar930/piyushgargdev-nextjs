@@ -72,10 +72,7 @@ export default function Home({
       <Testimonial feedbacks={feedbacks} />
       <Container className="mt-5">
         <SectionSubtitle subtitle="Terminal" />
-        <div
-          id="terminal-1"
-          style={{ border: "1px solid white", height: "400px" }}
-        >
+        <div id="terminal-1">
           <Terminal />
         </div>
       </Container>
@@ -145,7 +142,6 @@ export async function getStaticProps(context) {
     const [youtubeStats, youtubeVideos, blogResponse] = await Promise.all([
       getYoutubeStatsForChannelId("UCf9T51_FmMlfhiGpoes0yFA"),
       getYoutubeVideos(),
-      
     ]);
 
     return {
